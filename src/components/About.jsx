@@ -33,7 +33,7 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-    </>
+    </> 
   );
 };
 
