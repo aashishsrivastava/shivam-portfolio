@@ -7,6 +7,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 
+// ye ek function hai jo animation ke liye age use ho raha hai
 const iconVarients = (duration) => ({
   initian: { y: -10 },
   animate: {
@@ -24,6 +25,7 @@ const Technologies = () => {
   return (
     <>
       <div className="border-b border-neutral-800 pb-24 ">
+        {/* motion ko framer se liya gaya hai */}
         <motion.h2
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}

@@ -3,6 +3,7 @@ import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/shivampic.jpg";
 import { motion } from "framer-motion";
 
+// This code creates a simple sliding and fading animation for an element with control over the start time using the delay parameter.
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
@@ -17,7 +18,9 @@ const Hero = () => {
     <>
       <div className="border-b border-neutral-900 pb-4 lg:mb-35">
         <div className="flex flex-wrap">
+          {/* lg:w-1/2 ka mtlb hai ki large me screen adhi ho jayegi */}
           <div className="w-full  lg:w-1/2">
+            
             <div className="flex flex-col items-center lg:items-start">
               <motion.h1
                 variants={container(0)}
