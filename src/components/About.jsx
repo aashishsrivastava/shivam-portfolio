@@ -14,7 +14,9 @@ const About = () => {
           <motion.div
             // WhileInView prop ensures that the element only appears when it is in the viewport
             whileInView={{ opacity: 1, x: 0 }}
+            // initial ka mtlb hai pahli position 
             initial={{ opacity: 0, x: -100 }}
+            // transition ka mtlb hai animation duration
             transition={{ duration: 0.5 }}
             className="w-full lg:w-1/2 lg:p-8"
           >

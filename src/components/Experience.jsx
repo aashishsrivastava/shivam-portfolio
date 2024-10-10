@@ -11,6 +11,7 @@ const Experience = () => {
     <>
       <div className="border-b  border-neutral-900 pb-4 ">
         <motion.h2
+          // WhileInView prop ensures that the element only appears when it is in the viewport
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5 }}
