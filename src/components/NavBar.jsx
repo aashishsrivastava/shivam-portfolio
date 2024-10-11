@@ -9,7 +9,7 @@ import { FaInstagram } from "react-icons/fa";
 const NavBar = () => {
   return (
     <>
-      <nav className=" mb-20 bg-red-900 flex items-center justify-between py-6">
+      <nav className=" mb-20  flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
           <img className="mx-2 w-24 rounded-full " src={logo} alt="logo" />
         </div>
