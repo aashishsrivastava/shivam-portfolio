@@ -1,11 +1,12 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
+import { RiCss3Fill, RiHtml5Fill, RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { DiGithub, DiJavascript, DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
+import { BsGithub } from "react-icons/bs";
 
 // ye ek function hai jo animation ke liye age use ho raha hai
 const iconVarients = (duration) => ({
@@ -46,7 +47,7 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
-            <RiReactjsLine className="text-2xl text-cyan-400 " />
+            <RiHtml5Fill className="text-2xl text-orange-400 " />
           </motion.div>
           <motion.div
             variants={iconVarients(3)}
@@ -54,7 +55,8 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
-            <TbBrandNextjs className="text-2xl  " />
+            <RiCss3Fill className="text-2xl text-blue-400 " />
+            {/* <RiTailwindCssFill className="text-2xl text-cyan-400 " /> */}
           </motion.div>
           <motion.div
             variants={iconVarients(5)}
@@ -62,7 +64,8 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
-            <SiMongodb className="text-2xl text-green-400 " />
+            {/* <RiReactjsLine className="text-2xl text-cyan-400 " /> */}
+            <RiTailwindCssFill className="text-2xl text-cyan-400 " />
           </motion.div>
           <motion.div
             variants={iconVarients(2)}
@@ -70,7 +73,7 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
-            <DiRedis className="text-2xl text-red-400 " />
+            <DiJavascript className="text-2xl text-yellow-400 " />
           </motion.div>
           <motion.div
             variants={iconVarients(6)}
@@ -78,16 +81,27 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
-            <FaNodeJs className="text-2xl text-green-400 " />
+            <RiReactjsLine className="text-2xl text-cyan-400 " />
+            {/* <RiTailwindCssFill className="text-2xl text-cyan-400 " /> */}
           </motion.div>
+          {/* <motion.div
+            variants={iconVarients(3)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4"
+          >
+            <TbBrandNextjs className="text-2xl  " />
+          </motion.div> */}
           <motion.div
             variants={iconVarients(4)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
-            <BiLogoPostgresql className="text-2xl text-sky-700 " />
+            <BsGithub className="text-2xl text-white " />
           </motion.div>
+         
+          
         </motion.div>
       </div>
     </>
