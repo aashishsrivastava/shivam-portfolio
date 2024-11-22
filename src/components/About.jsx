@@ -14,7 +14,7 @@ const About = () => {
           <motion.div
             // WhileInView prop ensures that the element only appears when it is in the viewport
             whileInView={{ opacity: 1, x: 0 }}
-            // initial ka mtlb hai pahli position 
+            // initial ka mtlb hai pahli position
             initial={{ opacity: 0, x: -100 }}
             // transition ka mtlb hai animation duration
             transition={{ duration: 0.5 }}
@@ -30,8 +30,18 @@ const About = () => {
             transition={{ duration: 0.5 }}
             className="w-full lg:w-1/2"
           >
-            <div className="flex justify-center lg:justify-start">
+            {/* <div className="flex justify-center lg:justify-start">
               <p className="my-2 max-w-xl py-6 ">{ABOUT_TEXT}</p>
+            </div> */}
+
+            <div className="flex justify-center lg:justify-start">
+              <ul className="my-2 max-w-xl py-6 list-disc pl-5">
+                {ABOUT_TEXT.map((item, index) => (
+                  <li key={index} className="my-2">
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
           </motion.div>
         </div>

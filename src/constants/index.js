@@ -5,9 +5,22 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I'm a dedicated Front-End Developer specializing in React and Tailwind CSS, driven by a passion for crafting innovative web solutions that elevate user experiences and fuel business growth. With a keen eye for design and a commitment to excellence, I thrive on transforming ideas into visually stunning, high-performing applications. Let’s collaborate to create remarkable digital experiences that leave a lasting impression!`;
 
-export const ABOUT_TEXT = `Hello! I'm a passionate Front-End Developer with a focus on creating innovative web solutions that drive business growth and enhance user experiences. With a strong foundation in HTML, CSS, and JavaScript, I specialize in leveraging React and Tailwind CSS to build visually stunning and highly functional applications.
-I believe that a great user experience is the corn erstone of successful digital products. I'm always exploring new technologies and design trends to ensure my work not only meets but exceeds user expectations. My goal is to bridge the gap between technology and design, delivering seamless and engaging experiences that resonate with users.
-Whether collaborating with cross-functional teams or tackling challenges independently, I bring a problem-solving mindset and a commitment to excellence in everything I do. Let's connect and explore how we can create something remarkable together!`;
+// export const ABOUT_TEXT = `Hello! I'm a passionate Front-End Developer with a focus on creating innovative web solutions that drive business growth and enhance user experiences. With a strong foundation in HTML, CSS, and JavaScript, I specialize in leveraging React and Tailwind CSS to build visually stunning and highly functional applications.
+// I believe that a great user experience is the corn erstone of successful digital products. I'm always exploring new technologies and design trends to ensure my work not only meets but exceeds user expectations. My goal is to bridge the gap between technology and design, delivering seamless and engaging experiences that resonate with users.
+// Whether collaborating with cross-functional teams or tackling challenges independently, I bring a problem-solving mindset and a commitment to excellence in everything I do. Let's connect and explore how we can create something remarkable together!`;
+
+
+
+export const ABOUT_TEXT = [
+  "Hello! I'm a passionate Front-End Developer with a focus on creating innovative web solutions that drive business growth and enhance user experiences.",
+  "With a strong foundation in HTML, CSS, and JavaScript, I specialize in leveraging React and Tailwind CSS to build visually stunning and highly functional applications.",
+  "I believe that a great user experience is the cornerstone of successful digital products.",
+  "I'm always exploring new technologies and design trends to ensure my work not only meets but exceeds user expectations.",
+  "My goal is to bridge the gap between technology and design, delivering seamless and engaging experiences that resonate with users.",
+  "Whether collaborating with cross-functional teams or tackling challenges independently, I bring a problem-solving mindset and a commitment to excellence in everything I do.",
+  "Let's connect and explore how we can create something remarkable together!",
+];
+
 
 export const EXPERIENCES = [
   {
